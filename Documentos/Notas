@@ -1,0 +1,41 @@
+22-09-22
+Request & response
+GET & POST
+Protocolo HTTP
+
+Cookies --> 4 Kbytes --> 50 cookies --> 200 Kbytes max
+
+sudo dpkg -i __________________________________ --> para instalar un paquete
+sudo apt -f install --> si da algún error
+
+Ciente    --> Servidor Web	--> Servidor de aplicaciones	--> SGBD     --> BD
+Navegador --> Apache   		--> PHP 			--> Postgres --> BD
+
+
+23-09-22
+SAPI (cli, apache2, php-fpm)
+
+cd /etc/php/8.1/cli
+sudo nano php.ini
+control + W --> Buscar en nano
+error_reporting = E_ALL
+display_errors = On
+display_startup_errors = On
+date.timezone = 'UTC'
+
+cd conf.d  --> Modulos disponibles
+
+Modos de ejecución PHP:
+- Por lotes (script)
+- Interactivo --> php -a (consola)  //  psysh  (Control + D) --> Salir
+
+wget https://psysh.org/psysh
+chmod +x psysh
+sudo chown root.root psysh
+sudo mv psysh /usr/local/bin
+psysh
+
+control + f1
+activar la sincronización
+
+control + , --> parametros de configuración del code
