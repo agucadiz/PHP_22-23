@@ -33,7 +33,7 @@ wget https://psysh.org/psysh
 chmod +x psysh
 sudo chown root.root psysh
 sudo mv psysh /usr/local/bin
-psysh
+psysh (control+c para salir)
 
 control + f1
 activar la sincronización
