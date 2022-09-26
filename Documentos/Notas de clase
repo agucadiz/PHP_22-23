@@ -39,3 +39,53 @@ control + f1
 activar la sincronización
 
 control + , --> parametros de configuración del code
+
+
+26-09-22
+Todas las variables empiezan por $
+Destruir variable: unset()
+Asignación compuesta
+
+Asignación por referencia:
+$x = 4;
+$y = & $x; ($y = 4)
+
+Variables predefinidas:
+Variables super-globales: $_variable
+$argc
+$argv
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
