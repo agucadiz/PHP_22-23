@@ -56,6 +56,37 @@ $argc
 $argv
 
 
+27-09-22
+red.string.php  -->  Manipulación de cadenas
+- strlen()
+- trim()
+- strpos()
+- strstr()
+
+Extensión mbstring (importante)
+
+php -i | less
+
+sudo apt install php8.1-mbstring --> INSTALAR
+
+mb_substr()
+
+mb --> para caracteres especiales como ñ o á
+
+isset()  -->  Si la variable existe y no es nula.
+empty() 
+gettype()
+is_numeric()
+ctype_digit()
+
+Manipulación de tipos.
+Forzado de tipos.
+
+
+
+
+
+
 
 
 
