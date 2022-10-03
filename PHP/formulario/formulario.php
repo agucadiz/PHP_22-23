@@ -10,8 +10,8 @@
 
 <body>
     <?php
-    $dni = trim($_GET['dni']);
-    $nombre = trim($_GET['nombre']);
+    $dni = trim($_POST['dni']);
+    $nombre = trim($_POST['nombre']);
     ?>
     <ul>
         <li>Apellido: <?= $dni ?></li>
