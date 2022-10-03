@@ -1,4 +1,4 @@
-22-09-22
+22-09-22-------------------------------------------------------------------------------------
 Request & response
 GET & POST
 Protocolo HTTP
@@ -12,7 +12,7 @@ Ciente    --> Servidor Web	--> Servidor de aplicaciones	--> SGBD     --> BD
 Navegador --> Apache   		--> PHP 			--> Postgres --> BD
 
 
-23-09-22
+23-09-22------------------------------------------------------------------------------------
 SAPI (cli, apache2, php-fpm)
 
 cd /etc/php/8.1/cli
@@ -41,7 +41,7 @@ activar la sincronización
 control + , --> parametros de configuración del code
 
 
-26-09-22
+26-09-22-------------------------------------------------------------------------------------
 Todas las variables empiezan por $
 Destruir variable: unset()
 Asignación compuesta
@@ -55,7 +55,8 @@ Variables super-globales: $_variable
 $argc --> Número de argumentos pasados a un script
 $argv --> Array de argumentos pasados a un script
 
-27-09-22
+
+27-09-22-------------------------------------------------------------------------------------
 red.string.php  -->  Manipulación de cadenas
 - strlen()
 - trim()
@@ -80,6 +81,59 @@ ctype_digit() --> espera un string
 
 Manipulación de tipos.
 Forzado de tipos.
+
+
+29-09-22---------------------------------------------------------------------------------------
+operador ternario:
+condicion ? expresion1 : expresion2
+1 == 1    ? "si"       : "no"        -->  ("si") 
+
+Operador Elvis:
+Expresion1 ?: Expresion2  
+"hola"     ?: "pepe"      -->  ("hola")
+""         ?: "pepe"      -->  ("pepe")
+
+Estructuras de control:
+- Secuencial  -->  Bloque de código
+- Repetitiva  -->  while, do while, for
+- Selectiva   -->  if, if else, switch
+- Alternativa -->  if endif, switch endswitch...
+
+
+30-09-22---------------------------------------------------------------------------------------
+foreach ($a as $k => $v) {
+	echo $v "\n";
+	}
+
+funciones array --> filter, reduce, map...
+
+& --> paso por referencia, función impura, cambia el array original.
+
+$b = $a;  --> lo copia.
+$b = &$a; --> asignación por referencia, apunta al objeto.
+
+interpolación de cadenas o expansión de variable.
+echo "$k => $v\n";
+
+print_r($a) -->  para volcar las variables.
+
+var_dump() --> para depuración.
+
+array_merge() --> unir arrays
+
+label (for) = input (id)
+
+php -S   -->   Encender el servidor PHP
+
+php -S 0.0.0.0:8000  (Encender el servidor)
+
+127.0.0.1:8000  -->  para encender el servidor
+
+$_GET[] --> variable super global
+
+Son equivalentes:
+<?php echo $_GET['dni'] ?>
+<?= $_GET['dni'] ?>
 
 
 
