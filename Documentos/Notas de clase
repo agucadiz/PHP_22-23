@@ -147,6 +147,8 @@ const --> puedes utilizarlo en ambito global y local
 variable global --> solo global (amenos que se ponga en el ambito local 
 global $varible. --> Mejor no utilizar variables globales.
 
+ricpelo / dwese 2022 2023 ----------------> git hub
+
 
 
 
