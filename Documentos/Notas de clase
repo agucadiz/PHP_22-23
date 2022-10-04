@@ -143,9 +143,6 @@ require, require_once, include, include_once
 
 Diferencia del require y el include es que el require da un error y para el programa y el include da un warning y el programa sigue. Se utiliza mas el require pq nos interesa que nos de el error y pare el programa.
 
-Control + Shift + A = Comentar
-Control + Click = te lleva a la funcion que clikeas
-
 const --> puedes utilizarlo en ambito global y local
 variable global --> solo global (amenos que se ponga en el ambito local 
 global $varible. --> Mejor no utilizar variables globales.

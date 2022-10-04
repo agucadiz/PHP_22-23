@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @author Agustín Pedrote Bejarano
  * @copyright Copyright (c) 2022 Agustín Pedrote Bejarano
@@ -15,7 +16,7 @@
  * @param string $oper El operador.
  *                     (valores válidos: '+', '-', '*', '/').
  * @return mixed El resultado del cálculo.
- */ 
+ */
 
 function calcular_resultado($oper1, $oper2, $oper)
 {
@@ -31,6 +32,9 @@ function calcular_resultado($oper1, $oper2, $oper)
             break;
         case '/':
             $res = $oper1 / $oper2;
+            break;
+        case '%':
+            $res = $oper1 % $oper2;
             break;
         default:
             $res = 'Error';

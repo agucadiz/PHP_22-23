@@ -12,15 +12,19 @@
     <?php
     require 'auxiliar.php';
 
-    $operador1 = trim($_GET['operador1']);
-    $operador2 = trim($_GET['operador2']);
+    /*     $op1 = isset($_GET['op1']) ? trim($_GET['op1']) : null;
+    $op2 = isset($_GET['op2']) ? trim($_GET['op2']) : null;
+    $op = isset($_GET['op']) ? trim($_GET['op']) : null; */
+
+    $op1 = trim($_GET['op1']);
+    $op2 = trim($_GET['op2']);
     $op = trim($_GET['op']);
 
-    $res = calcular_resultado($operador1, $operador2, $op);
+    $res = calcular_resultado($op1, $op2, $op);
 
     ?>
 
-    <p>El resultado de <?= "$operador1 $op $operador2" ?> es <?= $res ?></p>
+    <p>El resultado de <?= "$op1 $op $op2" ?> es <?= $res ?></p>
     <a href="calculadora.html">volver</a>
 
 </body>
