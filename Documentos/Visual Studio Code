@@ -1,3 +1,4 @@
+EXTENSIONES
 Dracula
 GitHub pull requests and issues
 IntelliCode
@@ -7,3 +8,11 @@ Material Icon Theme
 PHP Intelephense
 Prettier
 Rainbow Brackets
+
+
+ATAJOS DE TECLADO
+Control + Shift + A = Comentar.
+Control + Click = te lleva a la funcion que clikeas.
+Control + D = Marcar muchas palabras iguales.
+Control + Shift + L = Marcas todas las palabras iguales.
+
