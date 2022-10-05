@@ -1,0 +1,22 @@
+#container {
+    height: 200px;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    background-color:grey;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+#res{
+    font-size: large;
+}
+html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  color:black;
+  text-align: center;
+}

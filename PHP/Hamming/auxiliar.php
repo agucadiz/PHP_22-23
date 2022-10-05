@@ -1,18 +1,18 @@
 <?php
 
-function resultado($a, $b)
+function resultado($x, $y)
 {
-    if (mb_strlen($a) != mb_strlen($b)){
+    if (mb_strlen($x) != mb_strlen($y)){
         return 'Las cadenas no tienen la misma longitud.';
     }
 
-    $ret = 0;
+    $diff = 0;
 
-    for ($i=0; $i < mb_strlen($a); $i++) { 
-        if (mb_substr($a, $i, 1) != mb_substr($b, $i, 1)) {
-            $ret++;
+    for ($i=0; $i < mb_strlen($x); $i++) { 
+        if (mb_substr($x, $i, 1) != mb_substr($y, $i, 1)) {
+            $diff++;
         }
     }
 
-    return $ret;
+    return $diff;
 }
