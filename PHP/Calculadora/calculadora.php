@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -19,12 +19,17 @@
     $op1 = trim($_GET['op1']);
     $op2 = trim($_GET['op2']);
     $op = trim($_GET['op']);
+    $error = [];
+    $res = calcular_resultado($op1, $op2, $op, $error);
 
-    $res = calcular_resultado($op1, $op2, $op);
+    if (empty($error)) {
+        mostrar_resultado($op1, $op2, $op, $res);
+    } else {
+        mostrar_errores($error);
+    }
 
     ?>
 
-    <p>El resultado de <?= "$op1 $op $op2" ?> es <?= $res ?></p>
     <a href="calculadora.html">volver</a>
 
 </body>

@@ -14,7 +14,7 @@
     $nombre = trim($_GET['nombre']);
     ?>
     <ul>
-        <li>Apellido: <?= $dni ?></li>
+        <li>DNI: <?= $dni ?></li>
         <li>Nombre: <?= $nombre ?></li>
     </ul>
     <a href="formulario.html">volver</a>
