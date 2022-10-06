@@ -149,9 +149,33 @@ global $varible. --> Mejor no utilizar variables globales.
 
 ricpelo / dwese 2022 2023 ----------------> git hub
 
+04-10-22------------------------------------------------------------------------
+gh auth login
+argumento por referencia --> mirar &argumento (es un argumento mutable)
+parametros por defecto siempre al final
+Tipo unión --> float | string
+declare(strict_types=1); --> tipado estricto
+void no devuelve nada, void != null
+?float --> tipo nulable = float | null
 
 
+06-11-22-------------------------------------------------------------------------
+extract()  -->  crear variables.  $var = ['x' => 4, 'y' => 3]
+compact()  -->  Al revés. $x = 4, $y = 3
 
+in_array(aguja, pajar)
+array_chunk($a, 2) --> Array de arrays
+array_keys()
+array_values()
+array_combine($x, $y)
+array_shift() --> como el pop() pero el primero.
+array_unshift -->lo introduce al principio del array.
+$a[]=3  --> introduce el 3 al final del array.
+
+funciones de orden superior:
+array_map()
+array_filter()
+array_reduce()
 
 
 

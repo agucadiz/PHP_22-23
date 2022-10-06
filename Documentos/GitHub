@@ -5,12 +5,5 @@ git config --global user.email "agustin.pedrote@iesdonana.org"
 Sudo apt install gh
 
 
-04-10-22------------------------------------------------------------------------
-gh auth login
-argumento por referencia --> mirar &argumento (es un argumento mutable)
-parametros por defecto siempre al final
-Tipo unión --> float | string
-declare(strict_types=1); --> tipado estricto
-void no devuelve nada, void != null
-?float --> tipo nulable = float | null
+
 
