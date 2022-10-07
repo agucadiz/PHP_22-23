@@ -5,5 +5,7 @@ git config --global user.email "agustin.pedrote@iesdonana.org"
 Sudo apt install gh
 
 
-
+Throwable:
+- Error
+- Exception
 

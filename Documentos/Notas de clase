@@ -178,6 +178,53 @@ array_filter()
 array_reduce()
 
 
+07-10-22------------------------------------------------------------------------
+Manipular con fechas:
+date('Y-m-d  H:i:s w')  -->  Formatear una hora en tiempo Unix.
+time()  -->  Devuelve el tiempo unix.
+
+new --> instanciar una clase.
+
+__Construct  -->  Constructor
+
+$fecha = new DateTime();
+
+instanceof --> Da verdadero o falso.
+
+::  -->  Operador de resolución de ámbito. (DateTimeInterface::ATOM)
+
+Estructura de clase:
+- Clase.
+- Interfaz
+- Rasgo
+
+$fecha -> getTimezone()
+
+Zona horaria que utilizamos es Europa/Madrid.
+
+Orientación a objetos:
+$fecha->setTimezone(new DateTimeZone('Europe/Madrid'));
+
+$dos_dias = new DateInterval('P2D')
+
+Referencias al objeto:
+$nueva = $fecha; 	Asignación por valor (variable(*) no compartida).
+$nueva = &$fecha; 	Asignación por referencia (variable(*) compartida).
+$nueva = clone $fecha; 	Clona el objeto.
+
+Comparación de objetos:
+- Comparación flexible		$a==$b		¿Son iguales?
+- Comparación estricta		$a===$b		¿Son identicos?
+
+Propiedades predeterminada de un objeto, viene definida por la clase del objeto.
+
+unset()  -->  Destruye variables.
+
+Casting:
+(object) [...];  -->  Crea un objeto y los elementos del array son las propiedades del objeto.
+(array) [...];  -->  Crea un array de un objeto.
+
+get_class(...)  -->  Te da el nombre de la clase.
 
 
 
