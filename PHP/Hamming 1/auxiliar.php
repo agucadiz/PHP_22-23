@@ -7,16 +7,17 @@ function resultado($x, $y)
     }
 
     if (empty($y)) {
-        return "Error: Las cadena 2 no deben de estar vacía.";
+        return "Error: La cadena 2 no deben de estar vacía.";
     }
 
     if (mb_strlen($x) != mb_strlen($y)){
-        return 'Las cadenas no tienen la misma longitud.';
+        return 'Error: Las cadenas no tienen la misma longitud.';
     }
 
     $diff = 0;
+    $longitud = mb_strlen($x);
 
-    for ($i=0; $i < mb_strlen($x); $i++) { 
+    for ($i=0; $i < $longitud; $i++) { 
         if (mb_substr($x, $i, 1) != mb_substr($y, $i, 1)) {
             $diff++;
         }
