@@ -12,13 +12,13 @@
     <?php
     require 'auxiliar.php';
 
-    /*     $op1 = isset($_GET['op1']) ? trim($_GET['op1']) : null;
+    $op1 = isset($_GET['op1']) ? trim($_GET['op1']) : null;
     $op2 = isset($_GET['op2']) ? trim($_GET['op2']) : null;
-    $op = isset($_GET['op']) ? trim($_GET['op']) : null; */
+    $op = isset($_GET['op']) ? trim($_GET['op']) : null; 
 
-    $op1 = trim($_GET['op1']);
+/*     $op1 = trim($_GET['op1']);
     $op2 = trim($_GET['op2']);
-    $op = trim($_GET['op']);
+    $op = trim($_GET['op']); */
     $error = [];
     $res = calcular_resultado($op1, $op2, $op, $error);
 
@@ -30,7 +30,22 @@
 
     ?>
 
-    <a href="calculadora.html">volver</a>
+    <form action="" method="get">
+        <div>
+            <label for="op1">Operador 1: </label>
+            <input type="text" name="op1" id="op1" />
+            <br />
+            <label for="op2">Operador 2: </label>
+            <input type="text" name="op2" id="op2" />
+            <br />
+            <label for="op">Operador: </label>
+            <input type="text" name="op" id="op" />
+            <br />
+            <button type="submit">Operación</button>
+        </div>
+    </form>
+
+    <a href="calculadora.php">volver</a>
 
 </body>
 

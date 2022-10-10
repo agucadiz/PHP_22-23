@@ -227,6 +227,21 @@ Casting:
 get_class(...)  -->  Te da el nombre de la clase.
 
 
+10/10/22-------------------------------------------------------------------------
+Error -->
+Excepción --> Los creamos nosotros.
+
+Manejador de errores --> set_error_handler(...)
+
+try{
+...
+} catch {
+...
+} finally {
+...
+}
+
+
 
 
 
