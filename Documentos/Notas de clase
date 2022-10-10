@@ -191,12 +191,12 @@ $fecha = new DateTime();
 
 instanceof --> Da verdadero o falso.
 
-::  -->  Operador de resolución de ámbito. (DateTimeInterface::ATOM)
+::  -->  Operador de resolución de ámbito. (DateTimeInterface::ATOM) Es un token que permite acceder a elementos estáticos, constantes, y sobrescribir propiedades o métodos de una clase.
 
 Estructura de clase:
 - Clase.
-- Interfaz
-- Rasgo
+- Interfaz.
+- Rasgo.
 
 $fecha -> getTimezone()
 
