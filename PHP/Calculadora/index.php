@@ -16,13 +16,13 @@
     $op2 = isset($_GET['op2']) ? trim($_GET['op2']) : null;
     $op = isset($_GET['op']) ? trim($_GET['op']) : null; 
 
-    $error = [];
-    $res = calcular_resultado($op1, $op2, $op, $error);
-
-    if (empty($error)) {
-        mostrar_resultado($op1, $op2, $op, $res);
-    } else {
-        mostrar_errores($error);
+    if (isset($op1, $op2, $op)) {
+        try {
+            $res = calcular_resultado($op1, $op2, $op);
+            mostrar_resultado($op1, $op2, $op, $res);
+        } catch (Exception $e) {
+            mostrar_errores([$e->getMessage()]);
+        }
     }
 
     ?>

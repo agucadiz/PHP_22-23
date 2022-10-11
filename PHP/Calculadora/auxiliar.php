@@ -19,7 +19,7 @@
  * @return ?float El resultado del cálculo.
  */
 
-function calcular_resultado(?float $oper1, ?float $oper2, ?string $oper, array &$error): ?float
+function calcular_resultado(float $oper1, float $oper2, string $oper): float
 {
     switch ($oper) {
         case '+':
@@ -37,13 +37,8 @@ function calcular_resultado(?float $oper1, ?float $oper2, ?string $oper, array &
         case '%':
             $res = $oper1 % $oper2;
             break;
-        case null:
-            $error[] = null;
-            return null;
-            break;
         default:
-            $error[] = 'Error: operación incorrecta.';
-            return null;
+            throw new Exception('Error: operación incorrecta.');
     }
     return $res;
 }

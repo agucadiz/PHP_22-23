@@ -241,6 +241,10 @@ try{
 ...
 }
 
+PHP tiene dos operadores de objetos.
+El primero, ->, se usa cuando desea llamar a un método en una instancia o acceder a una propiedad de instancia.
+El segundo, ::, se usa cuando desea llamar a un static método, acceder a una static variable o llamar a la versión de una clase principal de un método dentro de una clase secundaria.
+
 
 
 
