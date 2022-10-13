@@ -287,6 +287,64 @@ sudo apt install php8.1-pgsql
 sudo apt --purge autoremove
 
 
+13/10/22---------------------------------------------------------------
+fetchAll --> Da un array con todas las filas.
+fetch --> Devuelve una fila.
+fetchColumn --> Devuelve una columna (la primera).
+
+begintransaction
+
+- transacciones (nivel aislamiento)
+- bloqueos explicitos LOCK TABLE departamentos IN SHARE MODE (modo compartido y no hay cambios concurrentes en la tabla).
+
+- exclusive mode -> crea una cola de espera.
+
+Inyección de código sql, lo evita la consulta parametrizada.
+
+Consultas:
+- constante: query
+- parametrizada: prepare
+		 execute
+		 
+*objetos pdo statement 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
