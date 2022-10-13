@@ -246,9 +246,45 @@ El primero, ->, se usa cuando desea llamar a un método en una instancia o acced
 El segundo, ::, se usa cuando desea llamar a un static método, acceder a una static variable o llamar a la versión de una clase principal de un método dentro de una clase secundaria.
 
 
+11/10/22--------------------------------------------------------------------------
+TEMA 5 PERSISTENCIA DE DATOS.
 
+Tablas de las base de datos:
+departamentos (id, codigo, denominacion)
+id = bigserial
+codigo = unique
+el * signidica es que no puede ser null
 
+sudo apt update --> hacer a diario
+sudo apt install postgresql
+sudo systemctl status postgresql.service
+sudo -u postgres psql -l
+sudo -u postgres createuser -P empresa
+sudo -u postgres createdb empresa
+psql -h localhost -d empresa -U empresa
+psql -h localhost -d empresa -U empresa < empresa.sql     (inyectar la base de datos)
 
+\d relaciones
+\q salir
+psql  -->  para entrar (siempre sin sudo)
+puerto del postgre 5432
+fixtures --> datos para trabajar la base de datos.
+
+chmod a+x crear.sh
+
+./ crear.sh  -->  para crear
+
+extensión del code -->  postresql Explorer
+dbeaver  -->  herramienta
+
+git init
+git add .
+git commit -m "Carga inicial"
+gh repo create (segunda opción)
+
+sudo apt install php8.1-pgsql
+
+sudo apt --purge autoremove
 
 
 
