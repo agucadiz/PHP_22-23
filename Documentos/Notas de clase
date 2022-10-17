@@ -312,7 +312,7 @@ Consultas:
 *objetos pdo statement 
 
 
-14/10/22
+14/10/22-------------------------------------------------------------
 sql --> Translate 
 ejemplo --> select translate ('Informatica', 'àèìòù', 'aeiou');
 
@@ -322,6 +322,32 @@ ejemplo --> select translate ('Informatica', 'àèìòù', 'aeiou');
 
 - Devuelve filas (Dinámica): prepare
                              execute
+
+
+17/10/22---------------------------------------------------------------
+location --> php ya le pone la cabecera correspondiente (ej 301)
+CRUD --> create, read, update, delete
+rowCount() --> numero de filas afectadas por la ultima consulta.
+
+
+SQL		PHP
+NULL	<->	NULL
+bool	<->	bool
+int	<->	int
+resto 	<->	string
+
+Post/redirect/get   -->  para que el cliente no repita el post dandole a refrescar. De esta forma repite el get.
+
+*./crear.sh
+
+fetchColumn devuelve INT o BOOL (false)
+false == 0
+siempre utilizar === para diferenciar el false y el 0
+
+
+
+
+
 
 
 
