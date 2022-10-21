@@ -349,7 +349,16 @@ siempre utilizar === para diferenciar el false y el 0
 Filtrar código: validación y saneado.
 
 
+21/10/22----------------------------------------------------------------
+filter_input(...)
+- dato  -->  Si es correcto.
+- false -->  Si no es correcto.
+- null  -->  Si no hay nada.
 
+*función calable.
+*función anónima
+
+TODO --> Esta por hacer.
 
 
 
