@@ -363,6 +363,14 @@ TODO --> Esta por hacer.
 FETCH_ASSOC
 
 
+24/10/22----------------------------------------------------------------
+sudo dpkg --configure -a
+sudo apt update
+sudo apt dist-upgrade
+
+extract(...)  -->  Extrae variables
+
+
 
 
 
