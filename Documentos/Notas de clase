@@ -371,8 +371,18 @@ sudo apt dist-upgrade
 extract(...)  -->  Extrae variables
 
 
+25/10/25-------------------------------------------------------------
+select * from empleados e join departamentos d on e.departamento_id = d.id;
 
+sudo nano /etc/postgresql/15/main/postgresql.conf
 
+(713)timezone = 'UTC'
+
+sudo systemctl restart postgresql.service
+sudo apt purge postgresql-14
+port 5432
+sudo -u postgres createuser -P empresa
+sudo -u postgres createdb -O empresa empresa
 
 
 
