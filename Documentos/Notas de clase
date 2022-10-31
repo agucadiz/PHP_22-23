@@ -384,6 +384,18 @@ sudo -u postgres createdb -O empresa empresa
 select * from empleados e join departamentos d on e.departamento_id = d.id;
 
 
+31/10/2022-------------------------------------------------------------
+SEGURIDAD
+- Inyección de código SQL  -->  PDO
+- Cross-Site Scripting (XSS)
+	* Persistente
+	* No persistente
+	--> htmlspecialchars($x, ENT_QUOTES | ENT_SUBSITUTE)
+	
+a??b  -->  Si es null a sino b
+
+
+
 
 
 
