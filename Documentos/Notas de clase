@@ -395,11 +395,19 @@ SEGURIDAD
 a??b  -->  Si es null a sino b
 
 
+03/11/2022--------------------------------------------------------------
+COOKIES
+1º Crear: setcookie(...)
+2º Comprobar: $_COOKIE
 
+para borrar una cookie se le pone el valor 1
 
-
-
-
+SESIONES
+iniciar / continuar: session_start()
+*Crea la cookie PHPSESSID
+*Se pone lo primero de todo, primera linea y primera columna.
+*Se pone en todos los archivos, menos en los auxiliares.
+*$_SESSION --> Array asociativo que contiene las variables de sesión
 
 
 
