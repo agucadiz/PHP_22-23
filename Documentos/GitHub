@@ -1,11 +1,11 @@
-sudo apt update
+sudo apt-get update
+sudo apt-get upgrade
+ 
 sudo apt install git
 git config --global user.name "Agustin"
 git config --global user.email "agustin.pedrote@iesdonana.org"
-Sudo apt install gh
+git config -l
 
-
-Throwable:
-- Error
-- Exception
+sudo apt install gh
+gh auth login
 
