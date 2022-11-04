@@ -1,3 +1,20 @@
+INSTALAR PHP
 sudo apt-get update
-
 sudo apt install php8.1 php8.1-amqp php8.1-cgi php8.1-cli php8.1-common php8.1-curl php8.1-fpm php8.1-gd php8.1-igbinary php8.1-intl php8.1-mbstring php8.1-opcache php8.1-pgsql php8.1-readline php8.1-redis php8.1-sqlite3 php8.1-xml php8.1-zip
+
+MODIFICAR PHP
+cd /etc/php/8.1/cli
+sudo nano php.ini
+control + W --> Buscar en nano
+error_reporting = E_ALL
+display_errors = On
+display_startup_errors = On
+date.timezone = 'UTC'
+
+udo apt install php8.1-mbstring
+
+PSYSH
+wget https://psysh.org/psysh
+chmod +x psysh
+sudo chown root.root psysh
+sudo mv psysh /usr/local/bin

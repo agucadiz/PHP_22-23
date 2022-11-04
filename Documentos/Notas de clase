@@ -33,6 +33,7 @@ wget https://psysh.org/psysh
 chmod +x psysh
 sudo chown root.root psysh
 sudo mv psysh /usr/local/bin
+
 psysh (control+c para salir)
 
 control + f1
@@ -83,7 +84,7 @@ Manipulación de tipos.
 Forzado de tipos.
 
 
-29-09-22---------------------------------------------------------------------------------------
+29-09-22---------------------------------------------------------------------------------------POR AQUI
 operador ternario:
 condicion ? expresion1 : expresion2
 1 == 1    ? "si"       : "no"        -->  ("si") 
@@ -410,7 +411,9 @@ iniciar / continuar: session_start()
 *$_SESSION --> Array asociativo que contiene las variables de sesión
 
 
-
+04/11/2022--------------------------------------------------------------
+CSRF  -->  Cross-Site Request Forgery
+Acciones peligrosas siempre van con POST
 
 
 
