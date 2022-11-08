@@ -420,16 +420,20 @@ Acciones peligrosas siempre van con POST
 - Front-office: portal de los clientes.
 - Back-office: panel de administración.
 
-- Licencia GNL3
-- Proyecto apariencia Board
+CREAR NUEVO PROYECTO:
+- Crear nuevo repositorio y elegir Licencia GNU3.
+- Create Project y elige apariencia Board.
 - Debe ser público.
 
-- Workflows:
-Item added to project --> Pull reques -> Status in Progress
+- Opción Workflows:
+Item added to project --> ON Pull request / Status in Progress
 Item reopened --> ON
 
 -Issues
 Assignees --> a ti mismo.
+Labels  --> puedes poner una establecida o crearte una.
+Projects --> tu proyecto.
+Status --> Todo/Status/In progress
 
 Crear una rama nueva para cada incidencia
 git checkout -b index-articulos
@@ -443,6 +447,9 @@ Closes#  -->  elegir incidencia
 
 La primera vez -->  git push -u origin
 
+Remote prune origin
+Git pull = Fetch y merge
+Git --all ¿?
 
 
 
