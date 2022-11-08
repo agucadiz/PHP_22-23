@@ -439,19 +439,21 @@ Crear una rama nueva para cada incidencia
 git checkout -b index-articulos
 
 pushear la rama -u solo la primera vez
-git push -u origin index-articulos
+git push -u origin (rama) 
 
 pull request --> fusionar las dos ramas. OJO mirar pull request(github) y merge(git).
 
-Closes#  -->  elegir incidencia
+Closes #  -->  elegir incidencia OJO mirar el pull request!!!!
 
 La primera vez -->  git push -u origin
 
-Remote prune origin
+git remote prune origin
 Git pull = Fetch y merge
-Git --all ¿?
 
 
+08/11/2022-------------------------------------------------------------------
+
+rebase  --> Reescribe commits
 
 
 
