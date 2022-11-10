@@ -456,23 +456,45 @@ Git pull = Fetch y merge
 rebase  --> Reescribe commits
 
 
+10/11/2022--------------------------------------------------------------------
+TAILWIND
+sudo apt-install npm  -->  Gestor de dependencias de JS.
 
+npm install -D tailwindcss  -->  Hay q hacerlo en la raid del proyecto.
+npx tailwindcss init
 
+cat package.json  -->  Versiones que son compatibles.
 
+node_module  -->  Va siempre en el .gitignore
 
+public  -->  carpeta que va a contener todo lo que yo quiero q se vea en la web.
+src  -->  Es la carpeta comunes. Carpeta que no quieres que sean publicados.
 
+php -S localhost:8000 -t public
 
+  content: ["./public/**/*.{html,php}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
 
+*tree
 
+npx tailwindcss -i ./src/input.css -o -/public/css/output.css --watch
 
+flowbite  -->  entra y luego dale a github
 
+docs  -->  ir a quickstar
 
+npm install -D flowbite  -->  el -D hay q ponerlo para hacerlo mas correcto.
 
+OJO mirar enlaces simbolicos:
+ln -s ../../node_module/flowbite/dist/flowbite.js .
 
+tree public  -->  ve el arbol de carpetas de public.
 
-
-
-
+publish --> enlaces simbolicos a public.
 
 
 
