@@ -496,7 +496,7 @@ tree public  -->  ve el arbol de carpetas de public.
 
 publish --> enlaces simbolicos a public.
 
-
+gh browse  -->  abre el gh desde la terminal.
 
 
 
