@@ -499,8 +499,14 @@ publish --> enlaces simbolicos a public.
 gh browse  -->  abre el gh desde la terminal.
 
 
+14/11/2022---------------------------------------------------------------
+metodo = función dentro de una clase.
 
-
+$pdo = $pdo ?? conectar()   -->   Si el $pdo es null entonces conectar()
+				  sino $pdo.
+				  
+unserialize(carrito())  -->  crea un objeto nuevo
+serialize($carrito)  -->  crea un array del objeto.
 
 
 
