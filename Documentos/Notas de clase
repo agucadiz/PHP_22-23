@@ -509,7 +509,9 @@ unserialize(carrito())  -->  crea un objeto nuevo
 serialize($carrito)  -->  crea un array del objeto.
 
 
-
+15/11/2022---------------------------------------------------------------
+git branch -a      (te muestra todas las ramas aunque no esten en local).
+fork  -->  tiene un marcador para forkear todas las ramas, no solo la main.
 
 
 
