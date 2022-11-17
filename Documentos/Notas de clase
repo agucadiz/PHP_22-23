@@ -514,6 +514,19 @@ git branch -a      (te muestra todas las ramas aunque no esten en local).
 fork  -->  tiene un marcador para forkear todas las ramas, no solo la main.
 
 
+17/11/2022---------------------------------------------------------------
+alter database template1 refresh collation version;
+
+sudo -u postgres psql template1  
+create extension pgcrypto; 
+
+alter database tienda refresh collation version  -->  ponerlo si da error.
+
+select crypt('pepe', gen_salt('bf', 10)
+
+mantenimiento
+git banch -d portal
+git remote prune origin
 
 
 
