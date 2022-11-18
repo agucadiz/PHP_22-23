@@ -268,7 +268,6 @@ sudo -u postgres createdb empresa
 psql -h localhost -d empresa -U empresa
 psql -h localhost -d empresa -U empresa < empresa.sql     (inyectar la base de datos)
 
-sudo -u postgres createdb -O tienda tienda
 
 \d relaciones
 \q salir
@@ -530,7 +529,7 @@ mantenimiento
 git banch -d portal
 git remote prune origin
 
-
+sudo -u postgres psql tienda   --> entrar en tienda
 
 
 
