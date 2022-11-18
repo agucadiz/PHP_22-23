@@ -532,6 +532,10 @@ git remote prune origin
 sudo -u postgres psql tienda   --> entrar en tienda
 
 
+18/11/22-------------------------------------------------------------------
+git pull
+git branch -d login
+git remote prune origin
 
 
 

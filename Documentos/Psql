@@ -1,0 +1,17 @@
+PSQL
+
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt install postgresql
+sudo systemctl status postgresql.service
+—-----------------------------------------------------------------------------
+sudo -u postgres createuser -P nom_usuario
+sudo -u postgres createdb -O nom_usuario nom_db
+sudo -u postgres psql -l
+psql -h localhost -d nom_db -U nom_usuario < nom_db.sql  
+------------------------------------------------------------------------------
+sudo -u postgres dropdb nom_db    
+------------------------------------------------------------------------------
+sudo -u postgres psql template1 
+create extension pgcrypto;
+
