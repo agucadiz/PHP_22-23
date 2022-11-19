@@ -9,3 +9,7 @@ git config -l
 sudo apt install gh
 gh auth login
 
+Saneado de ramas locales después de mergear:
+git pull
+git branch -d login
+git remote prune origin
