@@ -482,7 +482,7 @@ php -S localhost:8000 -t public
 
 *tree
 
-npx tailwindcss -i ./src/input.css -o -/public/css/output.css --watch
+npx tailwindcss -i ./src/input.css -o ./public/css/output.css --watch
 
 flowbite  -->  entra y luego dale a github
 
@@ -538,11 +538,20 @@ git branch -d login
 git remote prune origin
 
 
+22/11/22-------------------------------------------------------------------
+admin / admin
 
+articulo -> carrito -> linea
+* Una linea puede estar en un carrito.
+* Un carrito puede tener muchas lineas.
+* Una linea puede tener un articulo.
+* Un articulo puede estar en muchas lineas.
+* Muchos carritos pueden estar en muchos articulos y viceversa.
 
+var_dump() die()
 
-
-
+La clase usa un rasgo(un trozo de código)
+use Obtenible;
 
 
 
