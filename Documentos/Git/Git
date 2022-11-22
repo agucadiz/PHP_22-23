@@ -1,0 +1,46 @@
+COMANDOS IMPORTANTES GIT
+
+**Inicializar un repositorio**
+Git init
+
+**Clonar un repositorio**
+git clone <https://link-con-nombre-del-repositorio>
+
+**Ramas**
+git branch <nombre-de-la-rama> 				--> Crear	
+git branch						--> Visualizar
+git branch --list					--> Visualizar
+git branch -a      					--> Visualizar ramas remotas
+git push <nombre-remoto> <nombre-rama>			--> Enviar repositorio remoto
+git branch -d <nombre-de-la-rama>			--> Borrar
+
+**Mantenimiento de ramas**
+git banch -d <nombre-de-rama-sin-utilizar>
+git remote prune origin
+
+**Cambiar de rama**
+git checkout <nombre-de-la-rama>			--> Moverte de rama
+git checkout -b <nombre-de-tu-rama>			--> Crear y cambiarte de rama
+
+**Información rama actual**
+git status
+git log -- oneline					-->  historial de commits
+
+**Agregar cambios al commit**
+git add <archivo>
+
+**Guardar nuestros cambios**
+git commit -m "mensaje de confirmación"
+
+**Enviar tus cambios al servidor remoto**
+git push <nombre-remoto> <nombre-de-tu-rama>
+git push -u origin <nombre-de-tu-rama>			--> Cargar y subir tu rama
+
+**Recibir actualizaciones del repositorio remoto**
+git pull <nombre-remoto>
+
+**Deshacer los cambios**
+git revert <hash>
+
+**Fusionar ramas**
+git merge <nombre-de-la-rama>
