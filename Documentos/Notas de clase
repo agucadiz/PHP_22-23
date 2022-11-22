@@ -554,6 +554,32 @@ La clase usa un rasgo(un trozo de código)
 use Obtenible;
 
 
+22/11/2022--------------------------------------------------------------
+package.json  -->  mirar
+¿run?
+
+** namespace **
+Nombre corto -> Articulo
+Nombre totalmente cualificado (FQN) -> \Tablas\Articulo
+la \ significa direccion absoluta y espacio de nombre global.
+control + espacio = autocompletar --> detecta el espacio de nombres.
+
+str_replace
+
+tailwind.config.js
+"./public...
+"./src/**/_*.{html,php}",
+".node_modules...
+
+
+
+
+
+
+
+
+
+
 
 
 
