@@ -572,9 +572,49 @@ tailwind.config.js
 ".node_modules...
 
 
+24/11/2022--------------------------------------------------------------
+RETURNING  -->  ID Factura
 
+nmp  -->  package.json, package-locl.json, node_modules
 
+** COMPOSER **
+Gestor de dependencias.
 
+composer  -->  composer.json(paquetes de las que depende, dependicias, que son paquetes que han hecho otras personas.), composer.lock (bloquea versiones y se trabaja con esa version concreta), vendor
+
+getcomposer.org
+
+sudo apt install composer
+composer -V
+
+packagist.org   -->  Repositorio de paquetes de php
+mpdf/mpdf  -->  buscando pdf
+
+versiones
+x.y.z
+x=mayor
+y=menor
+z=parche
+
+^ -> Se puede cambiar los dos numeros de la derecha pero no el mas a la izquiera EJ 6.5.3
+virigulilla -> minimo de version
+
+madewithlove  -->  practiccas las versiones
+
+composer require mpdf/mpdf  -> En la raiz del proyecto.
+
+En el .gitignore hay que meter el vendor (junto al node_modules)
+
+hace un autoloading
+
+En el composer.json hay que especificar:
+autoload: {
+App blau blau
+}
+
+prefijo -> App
+
+composer dump-autoload  -->  refresca los paquetes del composer.
 
 
 
