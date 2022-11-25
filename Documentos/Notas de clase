@@ -617,7 +617,11 @@ prefijo -> App
 composer dump-autoload  -->  refresca los paquetes del composer.
 
 
+25/11/2022--------------------------------------------------------------
+dashboard.php
+Datetime::createFromFormat  
 
+localtiemstamp(0)  -> en la tabla para que no guarde microsegundos.
 
 
 
