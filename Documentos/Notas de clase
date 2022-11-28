@@ -518,10 +518,10 @@ fork  -->  tiene un marcador para forkear todas las ramas, no solo la main.
 17/11/2022---------------------------------------------------------------
 alter database template1 refresh collation version;
 
-sudo -u postgres psql template1  
+sudo -u postgres psql 
 create extension pgcrypto; 
 
-alter database tienda refresh collation version  -->  ponerlo si da error.
+alter database postgres/template1 refresh collation version  -->  ponerlo si da error.
 
 select crypt('pepe', gen_salt('bf', 10)
 
@@ -626,9 +626,34 @@ localtiemstamp(0)  -> en la tabla para que no guarde microsegundos.
 ln -s ../../node_modules/flowbite/dist flowbite   !!!OJO
 
 
+28/11/2022--------------------------------------------------------------
+composer install (crea composer.json y composer.lock y vendor)
+composer require 
+composer update [nombre de paquete]  -->  actualiza los paquetes (hay q tener cuidado).
+dump-autoload  -->  actualiza la carga automatica
+
+npm  -->  package.json, package-lock y node_modules.
+
+Entorno (environment):
+- Desarrollo: programador 
+	      entorno local
+	      php -S
+	      BD local
+	      datos ficticios
+
+- Producción: remota
+	      cloud
+	      servidor web profesional
+	      BD remotas
 
 
+php_codesniffer  -> paquete para detectar errores.
 
+-- dev  (le dices al composer que es una dependencia de desarrollo)
+
+require blau blau blau  --dev
+
+npm install -D flowbite
 
 
 
