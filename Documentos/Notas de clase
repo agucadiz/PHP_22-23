@@ -608,9 +608,9 @@ En el .gitignore hay que meter el vendor (junto al node_modules)
 hace un autoloading
 
 En el composer.json hay que especificar:
-autoload: {
-App blau blau
-}
+"autoload": {
+        "psr-4": {"App\\": "src/"}
+    }
 
 prefijo -> App
 
@@ -622,6 +622,8 @@ dashboard.php
 Datetime::createFromFormat  
 
 localtiemstamp(0)  -> en la tabla para que no guarde microsegundos.
+
+ln -s ../../node_modules/flowbite/dist flowbite   !!!OJO
 
 
 
