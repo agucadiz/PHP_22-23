@@ -1,0 +1,19 @@
+sudo apt install composer
+composer -V
+--------------------------------------------
+composer require mpdf/mpdf
+
+--------------------------------------------
+introducir vendor en .gitignore
+
+composer dump-autoload  -->  actualiza la carga automatica.
+
+composer update [nombre de paquete]  -->  actualiza los paquetes (hay q tener cuidado).
+
+---------------------------------------------
+En el composer.json hay que especificar:
+
+,
+"autoload": {
+        "psr-4": {"App\\": "src/"}
+    }

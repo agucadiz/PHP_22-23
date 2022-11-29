@@ -1,0 +1,5 @@
+npm install -D flowbite
+
+A continuación accedes a la carpeta public/js e introduces desde la terminar el siguiente enlace simbólico:
+
+ln -s ../../node_modules/flowbite/dist/ flowbite
