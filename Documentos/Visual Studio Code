@@ -8,6 +8,7 @@ PHP Intelephense
 Prettier
 Rainbow Brackets
 Tailwind CSS IntelliSense
+Laravel Extension Pack
 
 
 ATAJOS DE TECLADO
@@ -15,4 +16,6 @@ Control + Shift + A = Comentar.
 Control + Click = te lleva a la funcion que clikeas.
 Control + D = Marcar muchas palabras iguales.
 Control + Shift + L = Marcas todas las palabras iguales.
+
+
 

@@ -662,6 +662,54 @@ carbon  -->  extensión de datetime para incorporarle internacionalización.
 php-fig.org  -->  colaboraciones y estándares (crean recomendaciones)
 
 
+01/12/2022-----------------------------------------------------------------------------
+Modelo Vista Controlador (MVC)
+Modelo -> Representa la información, representa al cliente dentro del programa. accede a la información de la base de datos.
+Vista -> Genera un resultado del modelo. Son grandes.
+Controlador -> Dirige las operaciones que van a generar la respuesta. Son los mas grandes.
+
+cliente -> router -> controlador -> modelo -> BD -> modelo -> controlador -> vista -> cliente
+*************************************************************
+
+composer create-project laravel/laravel tiendalaravel
+cd tiendalaravel
+git init
+git add .
+git commit -m "Carga inicial"
+
+-extensiones-
+Laravel Extension Pack
+
+php artisan  -->  te muestran todos los comandos que se puede hacer con artisan.
+
+php artisan serve
+
+routers  -->  puntos de acceso del programa.
+
+blade  -->  motor de plantillas.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
