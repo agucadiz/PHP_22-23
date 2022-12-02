@@ -689,6 +689,86 @@ routers  -->  puntos de acceso del programa.
 blade  -->  motor de plantillas.
 
 
+02/12/2022------------------------------------------------------------------------------
+**LARAVEL**
+index.php  -->  front controller  -->  recibir peticios y cargar el framework
+
+kernel (núcleo del programa y recibe la entrada que viene por request y la gestiona generando una respuesta, y esa respues despues se envia).
+- http (index.php)  -->  Router(controlador o clausura(cuando es muy simple))
+- console (artisan)
+
+artisan es un script php.
+
+php artisan serve  -->  para arracar server
+npm run dev  -->  --watch
+
+blade  -->  motor de plantilla
+
+@auth  -->  si el usuario esta autenticado.
+
+.env  -->  no se pasa en el commit y hay q reconstruir cada vez que clonas.
+
+**parametros de coneccion de la base de datos (tiendalaravel)**
+de_connecion=pgsql
+port=5432
+database=tiendalaravel
+username=tienda
+password=tienda
+
+**MIGRACIONES**
+Migraciones son controles de versiones para la BBDD.
+
+- up  -->  Aplicando
+- down  -->  Desaplicando
+
+Todas las columnas son not null amenos que se le ponga nullable().
+
+php artisan migrate:install
+php artisan migrate:status
+php artisan migrate
+
+php artisan db   -->  te abre la bd   (\d)
+
+artisan tinker  -->  Te abre un psyshell
+
+capas BBDD
+- Eloquet (activación active record)
+- QueryBuilder
+- DB::
+
+breeze  -->  Te mete el tailwind
+
+composer require laravel/breeze --dev
+php artisan breeze:install
+
+guest --> invitado
+auth --> autenticado
+
+layaout  -->  plantilla la cual se renderizan las vistas.
+componentes  -->  <x-...>
+
+$slot  -->  todo lo que metas en $guet y /$guet aparece ahi.
+
+render vs redirect  (diferenciar)
+
+service container  ->  mirar, si eso.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
