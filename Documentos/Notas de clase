@@ -460,7 +460,6 @@ rebase  --> Reescribe commits
 10/11/2022--------------------------------------------------------------------
 TAILWIND
 sudo apt install npm  -->  Gestor de dependencias de JS.
-
 npm install -D tailwindcss  -->  Hay q hacerlo en la raid del proyecto.
 npx tailwindcss init
 
@@ -690,7 +689,7 @@ blade  -->  motor de plantillas.
 
 
 02/12/2022------------------------------------------------------------------------------
-**LARAVEL**
+**LARAVEL*********************
 index.php  -->  front controller  -->  recibir peticios y cargar el framework
 
 kernel (núcleo del programa y recibe la entrada que viene por request y la gestiona generando una respuesta, y esa respues despues se envia).
@@ -700,7 +699,7 @@ kernel (núcleo del programa y recibe la entrada que viene por request y la gest
 artisan es un script php.
 
 php artisan serve  -->  para arracar server
-npm run dev  -->  --watch
+npm run dev  -->  --watch   ¡¡NO FUNCIONA!!
 
 blade  -->  motor de plantilla
 
@@ -708,7 +707,7 @@ blade  -->  motor de plantilla
 
 .env  -->  no se pasa en el commit y hay q reconstruir cada vez que clonas.
 
-**parametros de coneccion de la base de datos (tiendalaravel)**
+**parametros de coneccion de la base de datos (tiendalaravel)**  ¿¿DONDE?? ¿.ENV?
 de_connecion=pgsql
 port=5432
 database=tiendalaravel
@@ -729,7 +728,7 @@ php artisan migrate
 
 php artisan db   -->  te abre la bd   (\d)
 
-artisan tinker  -->  Te abre un psyshell
+php artisan tinker  -->  Te abre un psyshell
 
 capas BBDD
 - Eloquet (activación active record)

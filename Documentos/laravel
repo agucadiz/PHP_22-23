@@ -1,0 +1,26 @@
+composer create-project laravel/laravel tiendalaravel
+cd tiendalaravel
+git init
+git add .
+git commit -m "Carga inicial"
+
+.env:
+DB_CONNECTION=pgsql
+DB_HOST=127.0.0.1
+DB_PORT=5432
+DB_DATABASE=tiendalaravel
+DB_USERNAME=tienda
+DB_PASSWORD=tienda
+
+php artisan migrate:install
+php artisan migrate:status
+php artisan migrate
+
+php artisan db
+php artisan tinker
+
+composer require laravel/breeze --dev
+php artisan breeze:install
+
+php artisan serve
+npm run dev
