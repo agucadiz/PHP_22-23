@@ -766,17 +766,80 @@ Mirar boton sin existencias con clases.
 viernes 13 -> Examen
 
 
+15/12/22-------------------------------------------------------------------------------------
+
+Fron controler solo un index.php en el public.
+
+kernel(interfaz)->make(pide a la aplicacion que instancie una clase)
+kernel = manejar una petición.
+
+handle -> recibe la petición y manda la respuesta.
+
+Inyeccion de contenedor de dependencias --> DIC
+
+providers --> Encargados de levantar servicios.
+
+config***************************
+'name' --> Nombre de la aplicación
+'env  -->  El entorno, por defecto es producción. Local.
+'debug'  -->  modo depuración, se muestran errores mas detallados.
+'locale'  -->  Localizacion, podria estar en español.
+
+Para arrancar la aplicacion:
+php artisan serve
+npm run dev
+
+breeze (login register)
+
+php artisan db --> desde terminal para ver la bd.
+
+php artisan route:list  -->  rutas de la aplicación
+
+web.php --> route
+
+renderizado(no cambia la url) no es una redirección(si cambia la url)
+
+middleware  -->  filtros q tiene q atravesar (CSRF, trim, auth, verified...)
+sino no llega la petición a donde debe de llegar. En la entrada pero tb puede usarse en la salida.
+app/http/middleware
+
+*************************************************************************
+Para poder acceder a la BD hay 3 formas depende de la capa:
+
+Patrón Active Record -> Eloquent----------------------------------------
+ORM --> Object-Relational Mapping
+Asocia las tablas con clases.
+Modelos son siempre eloquent, son instancias de eloquent
+
+FORMA INDIRECTA---------------------------------------------------------
+Independiente de la BD
+Query Builder (métodos orientados a objetos)
+DB::table('users')->get()
+
+FORMA DIRECTA-----------------------------------------------------------
+SQL
+DB::select ...
+DB::insert ...
+DB::delete ...
 
 
+artisan tinker
 
+-- help  -> ayuda de los comandos que se puede utilizar.
 
+Crear tabla, migracion y tb el modelo:
+php artisan make:model -m Articulo
 
+(-m es la migracion) 
 
+php artisan migrate:status  -->  Estado
+php artisan migrate  -->  Realizar migración
+php artisan db  -->  Entra en la BD
 
-
-
-
-
+$a = new Articulo();
+$a->save()   --> guardar la fila con los cambios realizado.
+Articulo::all()
+Articulo::find(1)
 
 
 
