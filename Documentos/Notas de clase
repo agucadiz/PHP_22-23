@@ -842,10 +842,52 @@ Articulo::all()
 Articulo::find(1)
 
 
+16/12/2022------------------------------------------------------------------------------
+-primero ruta: web.php
+return view: portal
 
+clockwork  -->  Extension interesante de instalar
++ paquete de composer
+f12 pestaña clockwork
+composer require itsgoingd/clockwork
 
+Barra de depuración de laravel
+laravel debugbar
+paquete de composer
+composer require...
 
+<x-guest-layour> ('x-' quiere decir que es un componente)
 
+f12 views -> se ven las plantillas que se estan utilizando.
+
+guest.blade.php -> layout
+
+flowbite/laravel -> Documentación
+
+************************
+npm install -D flowbite
+
+layout > vista > .blade.php
+
+control + p  = te busca el fichero
+
+-------------------------------------------------------------
+web.php
+portal.blade.php 
+layouts/guest/guest.blade.php (plantilla)
+	      navigation.blade.php
+app/view/components
+GuestLayout.php (clase)
+
+componentes:
+- Clases		app/View/Components (clase + plantilla)
+			archivos.php
+- Plantillas		resources/views/
+
+*******************************
+extension inline fold
+
+dd()    -->  Es un var_dumb() y die()
 
 
 
