@@ -19,3 +19,4 @@ Control + Shift + L = Marcas todas las palabras iguales.
 Control + tab = cambia de pestaña del code.
 Shift + tab = tab izq.
 Alt + tab = pestañas abiertas. 
+Control + p = Buscador de archivos, óptimo para laravel.
