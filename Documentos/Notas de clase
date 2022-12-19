@@ -890,7 +890,19 @@ extension inline fold
 dd()    -->  Es un var_dumb() y die()
 
 
+19/12/2022----------------------------------------------------
+name(...)  -->  nombre de la ruta
+whereNumber(...)  -->  ciertos patrones a ciertos parametros
 
+variable flash(...)  -->  Dura solo un turno.
+
+Cuando se mete mano al composer hay q retocar el autoload, pq puede que no lo coja.
+
+has(...)  -->  Te devuelve true si la variable existe.
+missing(...)  -->  Si le falta...  lo haces.
+
+php artisan db
+\d facturas
 
 
 
