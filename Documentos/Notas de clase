@@ -905,8 +905,30 @@ php artisan db
 \d facturas
 
 
+20/12/2022--------------------------------------------------------
+**************************
+DESPUES DE CLONAR
+composer install
+npm install
+
+cp .env.example .env   --> (Configurarlo)
+php artisan key:generate    --> (APP KEY)
+
+php artisan db
+php artisan migrate
+Datos de prueba:
+
+php artisan serve
+nmp run dev
 
 
+CREAR PROYECTO
+composer create-project laravel/laravel
+Todos los pasos anteriores menos el composer.
+
+*belongsTo se pone al que tiene la clave ajena*
+
+$f->user->name
 
 
 
