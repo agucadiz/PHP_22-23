@@ -832,9 +832,13 @@ php artisan make:model -m Articulo
 
 (-m es la migracion) 
 
-php artisan migrate:status  -->  Estado
-php artisan migrate  -->  Realizar migración
-php artisan db  -->  Entra en la BD
+***********************************************
+php artisan migrate  			-->  Realizar migración
+php artisan migrate:status  		-->  Estado
+php artisan migrate:rollback  		-->  Elimina el ultimo lote.
+php artisan migrate:fresh     		-->  Va ha eliminar y ha migrar las tablas una a una.
+php artisan db  			-->  Entra en la BD
+***********************************************
 
 $a = new Articulo();
 $a->save()   --> guardar la fila con los cambios realizado.
